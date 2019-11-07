@@ -21,7 +21,7 @@ const oidc = new ExpressOIDC({
   issuer: "https://dev-306995.okta.com/oauth2/default",
   client_id: '0oa1rkk7v7nAj0TYF357',
   client_secret: 'aPZZ_CwgwMJ9IBMDgv6848EiY63g6hE11EPD3kA9',
-  redirect_uri: 'http://http://13.127.74.144:3000/users/callback',
+  redirect_uri: 'http://ec2-13-127-74-144.ap-south-1.compute.amazonaws.com:3000/users/callback',
   scope: "openid profile",
   routes: {
     login: {
